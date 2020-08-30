@@ -308,8 +308,8 @@ func newDeliverSM(hdr *Header) *codec {
 			pdufield.DataCoding,
 			pdufield.SMDefaultMsgID,
 			pdufield.SMLength,
-			pdufield.UDHLength,
-			pdufield.GSMUserData,
+			// pdufield.UDHLength,
+			// pdufield.GSMUserData,
 			pdufield.ShortMessage,
 		},
 	}

@@ -49,6 +49,7 @@ const (
 	TagDestSubaddress           Tag = 0x0203
 	TagUserMessageReference     Tag = 0x0204
 	TagUserResponseCode         Tag = 0x0205
+	TagScInterfaceVersion       Tag = 0x0210
 	TagSourcePort               Tag = 0x020A
 	TagDestinationPort          Tag = 0x020B
 	TagSarMsgRefNum             Tag = 0x020C
